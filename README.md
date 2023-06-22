@@ -12,4 +12,4 @@ Random object parsers are just way easier to make in dynamically typed languages
 
 ## Features
 
-See [JOHN Documentation](https://github.com/nora2605/jane/blob/master/JOHN.md)
+See [JOHN Documentation](https://github.com/nora2605/jane/blob/master/john.md)
