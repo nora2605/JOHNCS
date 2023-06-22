@@ -15,10 +15,28 @@
     <Description>Parser and Serializer for the JOHN Serialization Notation</Description>
     <Copyright>MIT Licensed</Copyright>
     <PackageProjectUrl>https://github.com/nora2605/JOHNCS</PackageProjectUrl>
+    <RepositoryType>git</RepositoryType>
+    <PackageTags>Parser;Serialization;JOHN</PackageTags>
+    <NeutralLanguage>en-US</NeutralLanguage>
+    <PackageLicenseFile>LICENSE.md</PackageLicenseFile>
+    <PackageRequireLicenseAcceptance>True</PackageRequireLicenseAcceptance>
+    <EnforceCodeStyleInBuild>True</EnforceCodeStyleInBuild>
+    <PackageReadmeFile>README.md</PackageReadmeFile>
   </PropertyGroup>
 
   <ItemGroup>
     <Compile Remove="Program.cs" />
+  </ItemGroup>
+
+  <ItemGroup>
+    <None Update="LICENSE.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
+    <None Update="README.md">
+      <Pack>True</Pack>
+      <PackagePath>\</PackagePath>
+    </None>
   </ItemGroup>
 
 </Project>
